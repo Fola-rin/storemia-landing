@@ -24,6 +24,7 @@ video:focus {
 	animation-iteration-count: infinite;
 	margin: 0 auto 0 auto;
 	transform-origin: bottom;
+	background-color: transparent;
 }
 .bounce {
 	animation-name: bounce;
@@ -70,7 +71,7 @@ video:focus {
 	color: #582fa8;
 }
 .custom-phone-blob {
-	background-color: #ffbd59;
+	background-color: #6a39cb;
 }
 .bg-green {
 	background-color: #3bca93 !important;
