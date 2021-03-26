@@ -1,0 +1,96 @@
+/* 
+/* 
+/*  custom.css
+/*
+/*  If not using Gulp and Sass, add your custom CSS below then include it
+/*  in your page by adding a reference to assets/css/custom.css in the head of each page.
+/*
+*/
+
+video:focus {
+	outline: none;
+}
+.contact-nav-item {
+	padding-left: 0px !important;
+}
+.custom-app-icon {
+	font-size: 1.5rem;
+	height: unset !important;
+	line-height: 0px;
+}
+#player {
+	height: 100% !important;
+}
+.video-text-section {
+	padding: 2.5rem 0;
+}
+.btn-primary {
+	background-color: #6a39cb;
+	border-color: #6a39cb;
+}
+.btn-outline-primary {
+	border-color: #6a39cb40;
+	color: #6a39cb;
+}
+.btn:focus,
+.btn.focus {
+	outline: 0;
+	box-shadow: 0 0 0 0.2rem #6a39cb40;
+}
+.btn-primary:hover {
+	color: #fff;
+	background-color: #582fa8;
+	border-color: #6a39cb;
+}
+.btn-outline-primary:hover {
+	background-color: #6a39cb40;
+	border-color: rgba(0, 0, 0, 0);
+	color: #582fa8;
+}
+.custom-phone-blob {
+	background-color: #ffbd59;
+}
+.bg-green {
+	background-color: #3bca93 !important;
+}
+.yellow-mark {
+	background-image: linear-gradient(
+		121deg,
+		rgb(254 195 108 / 76%) 0%,
+		rgb(255 208 138 / 63%) 100%
+	);
+}
+.purple-mark {
+	background-image: linear-gradient(
+		120deg,
+		rgb(106 57 203 / 30%) 0%,
+		rgb(106 57 203 / 25%) 100%
+	);
+}
+.bg-light-primary {
+	background-color: #faf9fd;
+}
+.bg-dark-purple {
+	background-color: #0d0719 !important;
+}
+.btn-primary.active {
+	background-color: #6a39cb !important;
+	border-color: #6a39cb !important;
+}
+.btn-primary.active:focus {
+	box-shadow: 0 0 0 0.2rem #6a39cb40 !important;
+} /* #FFBD59 */
+svg.icon-purple [fill]:not([fill="none"]) {
+	fill: #6a39cb !important;
+}
+.btn[data-toggle="tab"][aria-selected="true"] .icon [fill]:not([fill="none"]) {
+	fill: #fff !important;
+}
+.bg-purple {
+	background-color: #6a39cb;
+}
+@media screen and (max-width: 425px) {
+	.custom-app-icon {
+		font-size: 1.25rem;
+	}
+}
