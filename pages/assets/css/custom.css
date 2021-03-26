@@ -74,7 +74,7 @@ video:focus {
 	background-color: #6a39cb;
 }
 .bg-green {
-	background-color: #3bca93 !important;
+	background-color: #34c487 !important;
 }
 .yellow-mark {
 	background-image: linear-gradient(
@@ -88,6 +88,13 @@ video:focus {
 		120deg,
 		rgb(106 57 203 / 30%) 0%,
 		rgb(106 57 203 / 25%) 100%
+	);
+}
+.green-mark {
+	background-image: linear-gradient(
+		120deg,
+		rgb(80 202 147 / 50%) 0%,
+		rgb(80 202 147 / 44%) 100%
 	);
 }
 .bg-light-primary {
