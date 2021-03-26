@@ -52,8 +52,8 @@ video:focus {
 	border-color: #6a39cb;
 }
 .btn-outline-primary {
-	border-color: #6a39cb40;
-	color: #6a39cb;
+	border-color: #34c48740;
+	color: #34c487;
 }
 .btn:focus,
 .btn.focus {
@@ -66,9 +66,9 @@ video:focus {
 	border-color: #6a39cb;
 }
 .btn-outline-primary:hover {
-	background-color: #6a39cb40;
+	background-color: #34c48740;
 	border-color: rgba(0, 0, 0, 0);
-	color: #582fa8;
+	color: #34c487;
 }
 .custom-phone-blob {
 	background-color: #6a39cb;
