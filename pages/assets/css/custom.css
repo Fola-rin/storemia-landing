@@ -126,6 +126,30 @@ svg.icon-purple [fill]:not([fill="none"]) {
 	top: -20vw !important;
 	transform: scale(2.7) !important;
 }
+svg.bg-success [stroke]:not([stroke="none"]) {
+	stroke: #6a39cb;
+}
+.bg-success-alt {
+	background-color: #6a39cb40;
+}
+a:hover {
+	color: #6a39cb !important;
+}
+a {
+	color: #6a39cb;
+}
+.card > [data-toggle="collapse"][aria-expanded="false"]:hover h6 {
+	color: #6a39cb;
+}
+.card > [data-toggle="collapse"][aria-expanded="true"] h6 {
+	color: #6a39cb;
+}
+.card
+	> [data-toggle="collapse"][aria-expanded="true"]
+	.icon
+	[fill]:not([fill="none"]) {
+	fill: #6a39cb;
+}
 @media screen and (max-width: 425px) {
 	.custom-app-icon {
 		font-size: 1.25rem;
