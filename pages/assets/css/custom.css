@@ -132,12 +132,12 @@ svg.bg-success [stroke]:not([stroke="none"]) {
 .bg-success-alt {
 	background-color: #6a39cb40;
 }
-a:hover {
+/* a:hover {
 	color: #6a39cb !important;
 }
 a {
 	color: #6a39cb;
-}
+} */
 .card > [data-toggle="collapse"][aria-expanded="false"]:hover h6 {
 	color: #6a39cb;
 }
@@ -149,6 +149,12 @@ a {
 	.icon
 	[fill]:not([fill="none"]) {
 	fill: #6a39cb;
+}
+.purple {
+	color: #6a39cb;
+}
+.purple:hover {
+	color: #4c21a1;
 }
 @media screen and (max-width: 425px) {
 	.custom-app-icon {
