@@ -52,8 +52,8 @@ video:focus {
 	border-color: #6a39cb;
 }
 .btn-outline-primary {
-	border-color: #34c48740;
-	color: #34c487;
+	border-color: #6a39cb40;
+	color: #6a39cb;
 }
 .btn:focus,
 .btn.focus {
@@ -66,15 +66,18 @@ video:focus {
 	border-color: #6a39cb;
 }
 .btn-outline-primary:hover {
-	background-color: #34c48740;
+	background-color: #6a39cb40;
 	border-color: rgba(0, 0, 0, 0);
-	color: #34c487;
+	color: #582fa8;
 }
 .custom-phone-blob {
 	background-color: #6a39cb;
 }
 .bg-green {
 	background-color: #34c487 !important;
+}
+.bg-yellow {
+	background-color: #ffbd59;
 }
 .yellow-mark {
 	background-image: linear-gradient(
@@ -118,6 +121,10 @@ svg.icon-purple [fill]:not([fill="none"]) {
 }
 .bg-purple {
 	background-color: #6a39cb;
+}
+.main-blob {
+	top: -20vw !important;
+	transform: scale(2.7) !important;
 }
 @media screen and (max-width: 425px) {
 	.custom-app-icon {
