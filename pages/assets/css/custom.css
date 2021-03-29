@@ -184,6 +184,9 @@ a {
 .bg-light-purple {
 	background-color: #6a39cb33;
 }
+.bg-light-purple-blob {
+	background-color: #6a39cb4d;
+}
 .btn-light {
 	color: #2c3038;
 	background-color: #ebedf1;
