@@ -6,7 +6,23 @@
 /*  in your page by adding a reference to assets/css/custom.css in the head of each page.
 /*
 */
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap");
 
+a {
+	color: inherit;
+}
+.storemia-logo {
+	font-family: "Red Hat Display", sans-serif;
+	letter-spacing: -0.6px;
+	font-size: 28px;
+	color: #6a39cb;
+}
+.navbar-light .navbar-brand {
+	color: #6a39cb;
+}
+.scrolled .navbar-brand {
+	color: #6a39cb;
+}
 video:focus {
 	outline: none;
 }
@@ -29,6 +45,15 @@ video:focus {
 .bounce {
 	animation-name: bounce;
 	animation-timing-function: ease;
+}
+p.lead {
+	font-weight: 700;
+}
+p.lead a {
+	color: #6a39cb;
+}
+p.lead a:hover {
+	color: #4c21a1;
 }
 @keyframes bounce {
 	0% {
