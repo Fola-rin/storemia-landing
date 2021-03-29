@@ -156,6 +156,26 @@ a {
 .purple:hover {
 	color: #4c21a1;
 }
+.bg-light-purple {
+	background-color: #6a39cb33;
+}
+.btn-light {
+	color: #2c3038;
+	background-color: #ebedf1;
+	border-color: #ecedf1;
+}
+.bg-purple-gradient {
+	background: linear-gradient(to right, #6a39cb, #2f195a) !important;
+}
+.navbar {
+	border-bottom: 1px solid transparent;
+}
+.navbar.scrolled {
+	border-bottom: 1px solid #eaedf2;
+}
+.navbar[data-sticky="top"] {
+	/* will-change: border-bottom; */
+}
 @media screen and (max-width: 425px) {
 	.custom-app-icon {
 		font-size: 1.25rem;
