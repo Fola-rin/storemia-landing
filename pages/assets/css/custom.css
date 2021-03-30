@@ -220,7 +220,11 @@ a {
 }
 .navbar-dark .navbar-brand:hover,
 .navbar-dark .navbar-brand:focus {
-	color: unset;
+	color: #ffff;
+}
+.navbar-dark.scrolled .navbar-brand:hover,
+.navbar-dark.scrolled .navbar-brand:focus {
+	color: #6a39cb;
 }
 @media screen and (max-width: 425px) {
 	.custom-app-icon {
