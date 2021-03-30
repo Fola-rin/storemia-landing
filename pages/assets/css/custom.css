@@ -178,6 +178,9 @@ a {
 .purple {
 	color: #6a39cb;
 }
+.purple-color {
+	color: #6a39cb !important;
+}
 .purple:hover {
 	color: #4c21a1;
 }
