@@ -126,7 +126,7 @@ p.custom-lead a:hover {
 	);
 }
 .bg-light-primary {
-	background-color: #faf9fd;
+	background-color: #fff !important;
 }
 .bg-dark-purple {
 	background-color: #0d0719 !important;
@@ -217,6 +217,10 @@ a {
 }
 .bg-purple-light {
 	background-color: #eae0ff;
+}
+.navbar-dark .navbar-brand:hover,
+.navbar-dark .navbar-brand:focus {
+	color: unset;
 }
 @media screen and (max-width: 425px) {
 	.custom-app-icon {
