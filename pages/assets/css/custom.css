@@ -10,6 +10,7 @@
 
 a {
 	color: inherit;
+	font-weight: 600;
 }
 .storemia-logo {
 	font-family: "Red Hat Display", sans-serif;
@@ -225,6 +226,11 @@ a {
 .navbar-dark.scrolled .navbar-brand:hover,
 .navbar-dark.scrolled .navbar-brand:focus {
 	color: #6a39cb;
+}
+@media (min-width: 1200px) {
+	.navbar-nav > .nav-item {
+		font-size: 1.2rem;
+	}
 }
 @media screen and (max-width: 425px) {
 	.custom-app-icon {
