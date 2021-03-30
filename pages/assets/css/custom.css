@@ -204,6 +204,17 @@ a {
 .navbar[data-sticky="top"] {
 	/* will-change: border-bottom; */
 }
+.purple-hover:hover,
+.purple-hover:active,
+.purple-hover:focus {
+	color: #6a39cb;
+}
+.btn {
+	cursor: pointer;
+}
+.bg-purple-light {
+	background-color: #eae0ff;
+}
 @media screen and (max-width: 425px) {
 	.custom-app-icon {
 		font-size: 1.25rem;
